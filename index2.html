@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+
+  <!-- Bootstrap -->
+
+
+
+
+  <link href="assets/css/font-awesome.css" rel="stylesheet">
+
+  <!-- siimple style -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+    Theme Name: WeBuild
+    Theme URL: https://bootstrapmade.com/free-bootstrap-coming-soon-template-countdwon/
+    Author: BootstrapMade
+    Author URL: https://bootstrapmade.com
+  ======================================================= -->
+</head>
+
+<body>
+
+  <div id="wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>Travel</h1>
+          <h2 class="subtitle">This website is used to predict the Traveling.</h2><br><br>
+          <form class="form-inline signup" role="form" style="display: inline-block;">
+            <div class="form-group">
+              <input type="email" class="form-control" id="name" placeholder="Enter your hotel name">
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                <i class="fa fa-plus" aria-hidden="true"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Featured</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body" style="max-height: 1000px; max-width: 100000px;">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div>
+                      <label for="exampleFormControlSelect1">Spa</label>
+                      <div>
+                        <input type="radio" class="checkmark" name="spa" id="spa" value="yes" checked>
+                        <label for="roomService">Yes</label>
+                        <input type="radio" class="checkmark" name="spa" id="spa" value="no">
+                        <label for="roomService">No</label>
+                      </div>
+                    </div>
+                    <div>
+                      <label for="exampleFormControlSelect1" style="justify-content: flex-start;">Room Type</label>
+                      <select class="form-control" class="checkmark" name="room" id="room">
+                        <option value="1">Delux</option>
+                        <option value="2">Superier</option>
+                        <option value="3">Standard</option>
+                        <option value="4">Suite</option>
+                        <option value="5">Ballroom</option>
+                        <option value="6">Other</option>
+                      </select>
+                    </div>
+                    <div>
+                      <label for="exampleFormControlSelect1" style="justify-content: flex-start;">Cost(Bath)</label>
+                      <select class="form-control" id="cost" class="checkmark" name="cost">
+                        <option value="1">370-1,770</option>
+                        <option value="2">1,770-3,170</option>
+                        <option value="3">3,170-4,570</option>
+                        <option value="4">4,570-5,970</option>
+                        <option value="5">5,970-7,370</option>
+                        <option value="6">7,370++</option>
+                      </select>
+                    </div>
+                    <div>
+                      <label for="exampleFormControlSelect1" style="justify-content: flex-start;">Service</label>
+                      <select class="form-control" id="service" class="checkmark" name="service">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                      </select>
+                    </div>
+
+                    <div>
+                      <label for="exampleFormControlSelect1">Room Service</label>
+                      <div>
+                        <input type="radio" name="roomService" id="roomService" value="yes" class="checkmark" checked>
+                        <label for="roomService">Yes</label>
+                        <input type="radio" name="roomService" id="roomService" value="no" class="checkmark">
+                        <label for="roomService">No</label>
+                      </div>
+                    </div>
+                    <div>
+                      <label for="exampleFormControlSelect1">Swimming Pool</label>
+                      <div>
+                        <input type="radio" name="swimmingPool" id="swimmingPool" value="yes" class="checkmark" checked>
+                        <label for="roomService">Yes</label>
+                        <input type="radio" name="swimmingPool" class="checkmark" id="swimmingPool" value="no">
+                        <label for="roomService">No</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div>
+                      <label for="exampleFormControlSelect1">Parking</label>
+                      <div>
+                        <input type="radio" class="checkmark" name="spa" id="spa" value="yes" checked>
+                        <label for="roomService">Yes</label>
+                        <input type="radio" class="checkmark" name="spa" id="spa" value="no">
+                        <label for="roomService">No</label>
+                      </div>
+                    </div>
+
+                    <div>
+                      <label for="exampleFormControlSelect1">Bar</label>
+                      <div>
+                        <input type="radio" class="checkmark" name="bar" id="bar" value="yes" checked>
+                        <label for="roomService">Yes</label>
+                        <input type="radio" class="checkmark" name="bar" id="bar" value="no">
+                        <label for="roomService">No</label>
+                      </div>
+                    </div>
+
+                    <div>
+                      <label for="exampleFormControlSelect1">Multilingual Staff</label>
+                      <div>
+                        <input type="radio" class="checkmark" name="multilingualStaff" id="multilingualStaff"
+                          value="yes" checked>
+                        <label for="roomService">Yes</label>
+                        <input type="radio" class="checkmark" name="multilingualStaff" id="multilingualStaff"
+                          value="no">
+                        <label for="roomService">No</label>
+                      </div>
+                    </div>
+                    <div>
+                      <label for="exampleFormControlSelect1">Babysitting Service</label>
+                      <div>
+                        <input type="radio" class="checkmark" name="babysittingService" id="babysittingService"
+                          value="yes" checked>
+                        <label for="roomService">Yes</label>
+                        <input type="radio" class="checkmark" name="babysittingService" id="babysittingService"
+                          value="no">
+                        <label for="roomService">No</label>
+                      </div>
+                    </div>
+                    <div>
+                      <label for="exampleFormControlSelect1">Laundry</label>
+                      <div>
+                        <input type="radio" class="checkmark" name="laundry" id="laundry" value="yes" checked>
+                        <label for="roomService">Yes</label>
+                        <input type="radio" class="checkmark" name="laundry" id="laundry" value="no">
+                        <label for="roomService">No</label>
+                      </div>
+                    </div>
+                    <div>
+                      <label for="exampleFormControlSelect1">ShuttleService</label>
+                      <div>
+                        <input type="radio" class="checkmark" name="shuttleService" id="shuttleService" value="yes"
+                          checked>
+                        <label for="roomService">Yes</label>
+                        <input type="radio" class="checkmark" name="shuttleService" id="shuttleService" value="no">
+                        <label for="roomService">No</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary" id="search">Search</button>
+            </div>
+          </div>
+        </div>
+      </div><br><br>
+
+      <div>
+        <button type="button" class="btn btn-primary" id="" onclick="window.location.href = 'index.html';">Go to
+          Hotel</button>
+      </div>
+
+      <!--<div class="row contctform" style="justify-content:center">
+        <form action="" method="post" role="form" class="contactForm" >
+          <div class="card" style="width: auto">
+            <h5 class="card-header">Featured</h5>
+            <div class="card-body">
+              <div class="row">
+                <label for="exampleFormControlSelect1">Cost</label>
+                <select class="form-control" id="cost">
+                  <option value="1">370 - 1,770 Bath</option>
+                  <option value="2">1,770 - 3,170 Bath</option>
+                  <option value="3">3,170 - 4,570 Bath</option>
+                  <option value="4">4,570 - 5,970 Bath</option>
+                  <option value="5">5,970 - 7,370 Bath</option>
+                  <option value="6">7,370 ++ Bath </option>
+                </select>
+
+                <label for="exampleFormControlSelect1">Location</label>
+                <select class="form-control" id="location">
+                <option value="Bang-Khen">Bang-Khen</option>
+                  <option value="Ratchathewi">Ratchathewi</option>
+                  <option value="Sathon">Sathon</option>
+                  <option value="radkrabang">Radkrabang</option>
+                  <option value="Thon-Buri">Thon-Buri</option>
+                  <option value="Bang-Kapi">Bang-Kapi</option>
+                  <option value="Phaya-Thai">Phaya-Thai</option>
+                  <option value="pathumwan">Pathumwan</option>
+                </select><br><br>
+
+                <fieldset>
+                  <legend>Room Service</legend>
+                    <div>
+                      <input type="radio" name="format" id="roomService" value="yes" checked>
+                      <label for="roomService">Yes</label>
+                      <input type="radio" name="format" id="roomService" value="no">
+                      <label for="roomService">No</label>
+                    </div>                               
+                  </fieldset>
+                  
+                  <fieldset>
+                    <legend>Swimming Pool</legend>
+                      <div>
+                        <input type="radio" name="format" id="swimmingPool" value="yes" checked>
+                        <label for="roomService">Yes</label>
+                        <input type="radio" name="format" id="swimmingPool" value="no">
+                        <label for="roomService">No</label>
+                      </div>                               
+                    </fieldset>
+
+              </div>
+            </div>
+          </div>
+        </form>
+
+      </div>-->
+
+      <br><br><br>
+      <div class="row" style="justify-content:center">
+        <div class="col-lg-6 col-lg-offset-3">
+          <p class="copyright">&copy; WeBuild - All Rights Reserved</p>
+          <div class="credits">
+            <!--
+              All the links in the footer should remain intact. 
+              You can delete the links only if you purchased the pro version.
+              Licensing information: https://bootstrapmade.com/license/
+              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=WeBuild
+            -->
+            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/jquery.countdown.min.js"></script>
+  <script type="text/javascript">
+
+  </script>
+
+  <script src="contactform/contactform.js"></script>
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</html>
+
+<script>
+  $('#search').click(function () {
+
+    var search = {};
+
+    var radios = document.getElementsByClassName("checkmark");
+    for (var x = 0; x < radios.length; x++) {
+      if (radios[x].type == "radio" && radios[x].checked || radios[x].name == "cost" || radios[x].name == "location") {
+        search[radios[x].name] = (radios[x].value);
+      }
+    }
+
+    search = JSON.stringify(search);
+    //console.log(search);
+
+    $.ajax({
+      url: 'travel.php',
+      type: 'POST',
+
+      data: {
+        "array": search,
+        "name": $('#name').val(),
+        "cost": $('#cost').val(),
+        "room": $('#room').val()
+      },
+      success: function (data) {
+        alert(data);
+      },
+    });
+
+
+  });
+</script>
